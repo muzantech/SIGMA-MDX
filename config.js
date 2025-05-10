@@ -11,7 +11,7 @@ function convertToBool(text, fault = 'true') {
 return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SIGMA-MD~1kRmUQgK#iQaoVtbIiAxGYVrM0NjsMQKP09P0OQRLpkuolhX-Z0M",//past your session id here
+SESSION_ID: process.env.SESSION_ID || "SIGMA-MD~rlBhiQaK#69nYfiHNlTMrNS2LqCsQQ0Uwp9zsQXfvOGNbEN4I4mg",//past your session id here
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -22,10 +22,10 @@ MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/mrj4XkHF/subzero-bot.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "Hi 💁🏽 How Can I Assist You. Am alive Now.",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
-PREFIX: process.env.PREFIX || ".",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+PREFIX: process.env.PREFIX || "•",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
